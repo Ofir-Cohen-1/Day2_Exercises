@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+  img{
+      object-fit: cover;
+      width: 400px;
+  }
+  .card {
+    background-color: blanchedalmond;
+    margin: 50px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 50px 40px 0 rgba(0, 0, 0, .2);
+  }
+
+  .card p {
+      font-size: 22px;
+    }
+  
+ 
+  .link a {
+    color: rgb(107, 138, 24);
+    font-size: 1rem;
+    margin-right: 3px;
+    cursor: pointer;
+   
+  
+  }
+  
