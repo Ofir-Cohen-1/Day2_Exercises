@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+}
+
+body, header, aside, main footer {
+    border: 1px solid black;
+}
+
+#container{
+max-width: 1000px;
+margin: 10px auto;
+}
+
+.box{
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+header{
+    background: orange;
+    text-align: center;
+    height: calc(100vh -865px);
+}
+
+aside{
+    background: olivedrab;
+    float: left;
+    width: 30%;
+    height: calc(100vh - 275px);
+}
+
+main{
+    background-color: darkorchid;
+    float: right;
+    width: 68%;
+    height: calc(100vh - 275px);
+    text-align: right0;
+}
+
+footer{
+    background-color: dodgerblue;
+    text-align: center;
+    height: calc(100vh - 865px);
+}
+
+.clr{
+    clear: both;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\6.2-card"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "6.3-refactor_with_styling"
+	}
+}

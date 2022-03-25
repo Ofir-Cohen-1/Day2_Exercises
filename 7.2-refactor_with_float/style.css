@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+}
+
+body, header, aside, main footer {
+    border: 1px solid black;
+}
+
+#container{
+max-width: 1000px;
+margin: 10px auto;
+}
+
+.box{
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.box p{
+   font-size: 22px;
+}
+
+header{
+    background: orange;
+    text-align: center;
+    height: calc(100vh -865px);
+}
+
+aside{
+    background: olivedrab;
+    float: left;
+    width: 30%;
+    height: calc(100vh - 575px);
+}
+
+main{
+    background-color: darkorchid;
+    float: right;
+    width: 68%;
+    height: calc(100vh - 575px);
+    text-align: right0;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: left;
+    height: calc(100vh - 845px);
+}
+
+.clr{
+    clear: both;
+}
+
+.fa-facebook{ 
+    color: blue;
+    font-size: 17px;
+}
+
+.fa-linkedin{
+    color: blue;
+    font-size: 17px;
+}
